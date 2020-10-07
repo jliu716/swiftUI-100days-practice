@@ -45,15 +45,12 @@ struct ContentView: View {
                 }
                 
                 ZStack {
-                    Color.green
-                    Text("BYE")
+                    Color.blue.padding(EdgeInsets(top: -10, leading: -100, bottom: -10, trailing: -20))
+//                    Text("BYE").foregroundColor(.white).font(.headline)
+                    Button("BYE") {
+                        print(1)
+                    }.foregroundColor(.white).font(.largeTitle)
                 }
-                
-            
-            
-            
-           
-            
         }
     }
 }
